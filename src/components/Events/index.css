@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.app-bg-container {
+  min-height: 100vh;
+  display: flex;
+}
+.events-container {
+  background-color: #475569;
+  width: 60vw;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.event-list-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.event-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
